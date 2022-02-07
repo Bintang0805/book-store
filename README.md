@@ -7,6 +7,37 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## ETC
+
+Tailwind css 3
+
+## Setup
+
+- composer intall
+- npm install
+- npm run dev
+
+## Future Fitures
+
+# Super Admin
+Management Users + Can Give Role Admin
+Management Categories
+Management Books
+Rekap
+Log
+
+# Admin
+Management Users
+Management Categories
+Management Books
+Rekap
+Log
+
+# user
+Buy Books
+Top Up
+Shopping Cart
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -65,12 +96,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## ETC
 
-Tailwind css 3
-
-## Setup
-
-- composer intall
-- npm install
-- npm run dev
