@@ -20,23 +20,23 @@ Tailwind css 3
 ## Future Fitures
 
 #### Super Admin
-Management Users + Can Give Role Admin
-Management Categories
-Management Books
-Rekap
-Log
+- Management Users + Can Give Role Admin
+- Management Categories
+- Management Books
+- Rekap
+- Log
 
 #### Admin
-Management Users
-Management Categories
-Management Books
-Rekap
-Log
+- Management Users
+- Management Categories
+- Management Books
+- Rekap
+- Log
 
-#### user
-Buy Books
-Top Up
-Shopping Cart
+#### User
+- Buy Books
+- Top Up
+- Shopping Cart
 
 ## About Laravel
 
