@@ -1,10 +1,5 @@
 <x-templates.app-layout title="Beranda">
 
-    <x-navbar />
-
-    <x-navbar-sm />
-
-    <x-sidebar />
 
     <section id="home" class="w-full h-[80vh] bg-main-300 pt-[4.5rem]">
         <div class="grid grid-cols-1 h-full">
@@ -144,6 +139,6 @@
 
     </section>
 
-    <x-footer />
+
 
 </x-templates.app-layout>

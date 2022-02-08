@@ -13,8 +13,16 @@
 <body class="font-poppins" id="body">
 
     <main id="main">
+        <x-navbar />
+
+        <x-navbar-sm />
+
+        <x-sidebar />
+
         {{ $slot }}
     </main>
+
+    <x-footer />
 
     <script src="{{ asset('js/font-awesome/all.js') }}"></script>
     <script src="{{ asset('js/landing-page/script.js') }}"></script>

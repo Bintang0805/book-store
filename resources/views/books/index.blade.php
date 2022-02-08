@@ -1,7 +1,5 @@
 <x-templates.app-layout title="Books">
 
-    <x-navbar />
-
     <section class="w-full h-auto py-20 px-3 sm:px-10">
         <div class="grid grid-cols-4 gap-x-3">
             <div class="card w-full min-h-[18rem] h-auto bg-main-300 py-3 px-5 rounded-lg hidden sm:block" style="box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.481)">
@@ -166,6 +164,5 @@
         </div>
     </section>
 
-    <x-footer />
 
 </x-templates.app-layout>
