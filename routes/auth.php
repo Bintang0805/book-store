@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landing-page');
-})->name('home');
+Route::controller(AuthController::class)->prefix('auth')->name('auth.')->group(function () {
 
-Route::get('books', function () {
-    return view('books.index');
-})->name('books');
+    Route::get('login', 'v_login')->name('login');
+
+    Route::get('register', 'v_regist')->name('register');
+
+});
