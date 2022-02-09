@@ -6,6 +6,9 @@ module.exports = {
   theme: {
     extend: {
         colors : {
+            "main-800" : "#4da6ff",
+            "main-700" : "#66b3ff",
+            "main-600" : "#80bfff",
             "main-500" : "#84c1ff",
             "main-400" : "#add6ff",
             "main-300" : "#d6eaff",
